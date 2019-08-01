@@ -1,0 +1,30 @@
+
+
+DESIGNED & DEVELOPED by FreeHTML5.co
+
+Website: http://freehtml5.co/
+
+
+CREDITS:
+
+Bootstrap
+http://getbootstrap.com/
+
+
+Google Fonts
+https://www.google.com/fonts/
+
+
+Icomoon
+https://icomoon.io/app/
+
+
+animate.css
+http://daneden.me/animate
+
+
+<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" data-fancybox="gallery" href="images/Capture.JPG"> ACTIVITY#1</a>
+							<a class="dropdown-item" data-fancybox="gallery" href="images/2.JPG"> ACTIVITY#2</a>
+							<a class="dropdown-item" data-fancybox="gallery" href="images/3.JPG"> ACTIVITY#3</a>
+						</div>
