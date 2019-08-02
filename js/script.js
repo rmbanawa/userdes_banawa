@@ -111,3 +111,14 @@ pdfjsLib
 // Button Events
 document.querySelector('#prev-page').addEventListener('click', showPrevPage);
 document.querySelector('#next-page').addEventListener('click', showNextPage);
+
+
+function resize(){    
+  $("#pdf-render").outerHeight($(window).height()-$("#pdf-render").offset().top- Math.abs($("#pdf-renders").outerHeight(true) - $("#pdf-render").outerHeight()));
+}
+$(document).ready(function(){
+  resize();
+  $(window).on("resize", function(){                      
+      resize();
+  });
+});
